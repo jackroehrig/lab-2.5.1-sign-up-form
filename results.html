@@ -17,6 +17,12 @@
             <h5 id="disclaimer"></h5>
             <div id="address1"></div>
             <div id="address2"></div>
+            <br>
+            <form>
+                <label for='password' id='pswd-label'>Your Secret Code<span class="required-field">*</span></label>
+                <input type='password' name='password' id='password' required title='Must include 1 uppercase letter 1 lowercase letter 1 number and be 8 or more characters' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+                <input type='submit' id='pswd-submit' value="Submit">
+            </form>
         </div>
     </main>
     <script type="text/javascript">

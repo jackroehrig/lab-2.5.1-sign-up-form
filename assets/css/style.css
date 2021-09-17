@@ -73,3 +73,7 @@ label {
 .required-field {
     color: red;
 }
+
+#pswd-submit {
+    margin-top: 5px;
+}
